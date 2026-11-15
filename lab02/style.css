@@ -1,0 +1,36 @@
+/* Lab 02 — Tech catalogue / blue-grey product desk */
+@import url('../assets/style.css');
+body{background:#edf3f8;color:#172b40;font-family:Arial,sans-serif}
+.site-header{background:#10283d;border-color:#29465e}.site-header .brand,.site-header .back-link{color:#f4f8fb}.site-header .brand span{color:#7bc7ee}
+.hero{padding-top:48px}.hero h1{font-family:Arial,sans-serif;letter-spacing:-1.5px}.hero h1 span{color:#1674a5;background:none}
+.card{border-radius:8px;border:1px solid #cbd8e3;box-shadow:0 10px 26px #17314a12}.product-icon{font-size:24px;color:#1674a5}
+.table-wrap{overflow-x:auto}table{width:100%;min-width:760px;border-collapse:separate;border-spacing:0;background:#fff;border:1px solid #cbd8e3}
+th{background:#dceaf4;color:#16334c;font-size:12px;text-transform:uppercase;letter-spacing:.7px}th,td{padding:13px 12px;text-align:left;border-bottom:1px solid #e0e8ef}
+tbody tr:nth-child(even){background:#f5f9fc}tbody tr:hover{background:#e8f4fb}
+.product-thumb{width:94px}.product-thumb img{display:block;width:76px;height:58px;object-fit:contain;background:#f0f5f8;border-radius:5px;padding:4px}
+.notice{border-left:4px solid #2183ad;background:#e8f2f8;padding:12px 15px;color:#496173}
+@media(max-width:600px){.hero{padding-top:32px}.card{padding:15px}}
+
+
+/* DISTINCT THEME 02: Technical product catalogue */
+body{background:#e8f0f5!important;color:#172b3b!important;font-family:Arial,sans-serif!important}.site-header{background:#102b40!important;color:white!important;border-bottom:4px solid #28a4bd!important}.site-header a{color:white!important}.hero{background:linear-gradient(115deg,#153b55,#287b91)!important;color:white!important;padding:34px!important;border-radius:0 0 34px 0!important}.hero h1{font-family:Arial,sans-serif!important;letter-spacing:-1px!important}.card{background:#fff!important;border:1px solid #c4d5df!important;border-radius:4px!important;box-shadow:0 12px 30px #19384a18!important}.table-wrap{overflow-x:auto!important;border:1px solid #c5d7e1!important;background:white!important}table{border-collapse:separate!important;border-spacing:0!important}th{background:#183c54!important;color:#fff!important}td{border-bottom:1px solid #dce6eb!important}.product-icon{background:#d9edf2!important;border-radius:12px!important}
+
+/* Lab 02: individual product photographs on clean white backgrounds */
+.product-thumb img, .product-image img {
+  display: block;
+  width: 112px;
+  height: 112px;
+  object-fit: contain;
+  object-position: center;
+  background: #fff;
+  border: 1px solid #dedede;
+  border-radius: 2px;
+  padding: 3px;
+  margin: 0 auto;
+}
+.product-thumb, .product-image {
+  text-align: center;
+  vertical-align: middle;
+  min-width: 125px;
+  background: #fff;
+}

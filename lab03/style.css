@@ -1,0 +1,44 @@
+
+/* Lab 3: Festival registration and frames */
+@import url('../assets/style.css');
+
+form{
+    display:grid;
+    gap:1rem
+}
+
+input,select,textarea,button{
+    max-width:100%
+}
+
+fieldset{
+    border:1px solid var(--border,#cbd5e1);
+    border-radius:12px;
+    padding:1rem
+}
+
+label{
+    line-height:1.6
+}
+
+
+/* Independent visual direction: Lab 03 — festival */
+body{background:#f4f0ff;color:#2d2452;font-family:Trebuchet MS,sans-serif}
+.site-header{background:#2d2452;border-color:#d8cff4}
+.site-header .brand,.site-header .back-link{color:#f4f0ff}
+.site-header .brand span{color:#7755c8}
+.hero h1,.section-title{font-family:Trebuchet MS,sans-serif;color:#2d2452}
+.hero h1 span{color:#7755c8;background:none}
+.eyebrow{color:#7755c8}
+.card,.panel{border:1px solid #d8cff4;border-radius:14px;box-shadow:0 9px 26px #2d245212;background:#ffffff}
+.card h2,.panel h2{color:#2d2452}
+table th{background:#2d2452;color:#f4f0ff}
+table td{border-bottom:1px solid #d8cff4}
+tbody tr:nth-child(even){background:#d8cff455}
+button,.pill{background:#7755c8;color:#fff;border-color:#7755c8}
+input,select,textarea{border:1px solid #d8cff4;border-radius:8px;padding:10px;background:#fff;color:#2d2452}
+.footer{border-color:#d8cff4;color:#2d2452}
+
+
+/* DISTINCT THEME 03: Neon campus festival poster */
+body{background:#170d2d!important;color:#f8f1ff!important;font-family:Arial,sans-serif!important}.site-header{background:#10071f!important;color:#fff!important;border-bottom:1px solid #5c347f!important}.site-header a{color:#fff!important}.hero{background:linear-gradient(130deg,#4a1d70,#b52d74 58%,#f0783e)!important;color:#fff!important;padding:clamp(34px,7vw,76px)!important;border-radius:28px!important;position:relative!important;overflow:hidden!important}.hero h1{font-size:clamp(38px,7vw,76px)!important;line-height:.98!important;text-transform:uppercase!important;letter-spacing:-3px!important}.card{background:#281842!important;color:#fff!important;border:1px solid #784a98!important;border-radius:22px!important;box-shadow:0 18px 45px #0005!important}.card label{color:#f6dfff!important}input,select,textarea{background:#160d29!important;color:#fff!important;border:1px solid #8056a2!important;border-radius:9px!important}button,.button{background:#ffbd59!important;color:#25113c!important;border:0!important;border-radius:999px!important;font-weight:800!important}

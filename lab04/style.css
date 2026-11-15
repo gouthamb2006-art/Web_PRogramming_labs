@@ -1,0 +1,38 @@
+
+/* Lab 4: Country and capital selector */
+@import url('../assets/style.css');
+
+select{
+    min-width:220px;
+    padding:.75rem;
+    border-radius:10px
+}
+
+#capital,.capital{
+    font-size:1.35rem;
+    font-weight:700;
+    letter-spacing:.02em;
+    transition:opacity .2s ease
+}
+
+
+/* Independent visual direction: Lab 04 — selector */
+body{background:#eaf8f7;color:#173d3a;font-family:Arial,sans-serif}
+.site-header{background:#173d3a;border-color:#bce6df}
+.site-header .brand,.site-header .back-link{color:#eaf8f7}
+.site-header .brand span{color:#16877c}
+.hero h1,.section-title{font-family:Arial,sans-serif;color:#173d3a}
+.hero h1 span{color:#16877c;background:none}
+.eyebrow{color:#16877c}
+.card,.panel{border:1px solid #bce6df;border-radius:8px;box-shadow:0 9px 26px #173d3a12;background:#ffffff}
+.card h2,.panel h2{color:#173d3a}
+table th{background:#173d3a;color:#eaf8f7}
+table td{border-bottom:1px solid #bce6df}
+tbody tr:nth-child(even){background:#bce6df55}
+button,.pill{background:#16877c;color:#fff;border-color:#16877c}
+input,select,textarea{border:1px solid #bce6df;border-radius:8px;padding:10px;background:#fff;color:#173d3a}
+.footer{border-color:#bce6df;color:#173d3a}
+
+
+/* DISTINCT THEME 04: Travel information kiosk */
+body{background:#e6f2eb!important;color:#163c34!important;font-family:Trebuchet MS,Arial,sans-serif!important}.site-header{background:#16483d!important;color:#fff!important}.site-header a{color:#fff!important}.hero{background:#c8e2d3!important;padding:36px!important;border-radius:0 42px 0 42px!important;border-bottom:6px solid #4b9278!important}.hero h1{font-family:Trebuchet MS,sans-serif!important;color:#16483d!important}.card{background:#fff!important;border:2px solid #a8cdb9!important;border-radius:22px 4px 22px 4px!important}.country-display{background:#f1f8f3!important;border:1px dashed #5d9c7d!important;border-radius:18px!important;padding:25px!important}select{background:#fff!important;border:2px solid #43876d!important;border-radius:30px!important;padding:13px 18px!important}button,.button{background:#236b55!important;color:white!important;border-radius:30px!important}

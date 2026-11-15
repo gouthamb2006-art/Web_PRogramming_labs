@@ -1,0 +1,42 @@
+
+/* Lab 8: Personal information form and output */
+@import url('../assets/style.css');
+
+form{
+    display:grid;
+    gap:1rem;
+    max-width:720px
+}
+
+input,select,textarea{
+    width:100%;
+    box-sizing:border-box
+}
+
+output,.result,.profile-card{
+    border-radius:14px;
+    padding:1rem;
+    background:rgba(90,120,180,.10)
+}
+
+
+/* Independent visual direction: Lab 08 — form */
+body{background:#fff6e8;color:#4c3324;font-family:Verdana,sans-serif}
+.site-header{background:#4c3324;border-color:#f1d1ad}
+.site-header .brand,.site-header .back-link{color:#fff6e8}
+.site-header .brand span{color:#d47736}
+.hero h1,.section-title{font-family:Verdana,sans-serif;color:#4c3324}
+.hero h1 span{color:#d47736;background:none}
+.eyebrow{color:#d47736}
+.card,.panel{border:1px solid #f1d1ad;border-radius:14px;box-shadow:0 9px 26px #4c332412;background:#ffffff}
+.card h2,.panel h2{color:#4c3324}
+table th{background:#4c3324;color:#fff6e8}
+table td{border-bottom:1px solid #f1d1ad}
+tbody tr:nth-child(even){background:#f1d1ad55}
+button,.pill{background:#d47736;color:#4c3324;border-color:#d47736}
+input,select,textarea{border:1px solid #f1d1ad;border-radius:8px;padding:10px;background:#fff;color:#4c3324}
+.footer{border-color:#f1d1ad;color:#4c3324}
+
+
+/* DISTINCT THEME 08: Minimalist profile dossier */
+body{background:#f0f4f2!important;color:#253b3a!important;font-family:Arial,sans-serif!important}.site-header{background:#fff!important;color:#253b3a!important;border-bottom:1px solid #cbd8d4!important}.site-header a{color:#253b3a!important}.hero{background:#dce9e4!important;padding:38px!important;border-left:3px solid #477d70!important}.hero h1{font-family:Arial,sans-serif!important;font-weight:300!important;letter-spacing:-2px!important;color:#244b43!important}.card{background:#fff!important;border:1px solid #d1ddd8!important;border-radius:2px!important;box-shadow:0 8px 24px #244b4310!important}.form-grid{gap:22px!important}input,select,textarea{background:#f9fbfa!important;border:0!important;border-bottom:2px solid #8ca99f!important;border-radius:0!important;padding:13px!important}button,.button{background:#315f54!important;color:#fff!important;border-radius:3px!important}

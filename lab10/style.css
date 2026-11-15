@@ -1,0 +1,37 @@
+
+/* Lab 10: PHP session application */
+@import url('../assets/style.css');
+
+.session-panel,.card,main{
+    max-width:760px;
+    margin:2rem auto;
+    padding:clamp(1rem,3vw,2rem);
+    border-radius:18px
+}
+
+form{
+    display:grid;
+    gap:1rem
+}
+
+
+/* Independent visual direction: Lab 10 — php-session */
+body{background:#f0f2f5;color:#172235;font-family:Arial,sans-serif}
+.site-header{background:#172235;border-color:#cbd7e4}
+.site-header .brand,.site-header .back-link{color:#f0f2f5}
+.site-header .brand span{color:#316b9c}
+.hero h1,.section-title{font-family:Arial,sans-serif;color:#172235}
+.hero h1 span{color:#316b9c;background:none}
+.eyebrow{color:#316b9c}
+.card,.panel{border:1px solid #cbd7e4;border-radius:8px;box-shadow:0 9px 26px #17223512;background:#ffffff}
+.card h2,.panel h2{color:#172235}
+table th{background:#172235;color:#f0f2f5}
+table td{border-bottom:1px solid #cbd7e4}
+tbody tr:nth-child(even){background:#cbd7e455}
+button,.pill{background:#316b9c;color:#fff;border-color:#316b9c}
+input,select,textarea{border:1px solid #cbd7e4;border-radius:8px;padding:10px;background:#fff;color:#172235}
+.footer{border-color:#cbd7e4;color:#172235}
+
+
+/* DISTINCT THEME 10: PHP session control room */
+body{background:#071c25!important;color:#d9f3f0!important;font-family:Arial,sans-serif!important}.site-header{background:#031117!important;color:#7fe0d0!important;border-bottom:2px solid #176b68!important}.site-header a{color:#7fe0d0!important}.hero{background:#0c3039!important;padding:34px!important;border-left:6px solid #28b7a7!important}.hero h1{color:#d8fff7!important;font-family:Arial,sans-serif!important}.card{background:#10414a!important;color:#e7fffb!important;border:1px solid #287e7c!important;border-radius:12px!important;box-shadow:0 15px 40px #0005!important}.stat{background:#08252d!important;padding:18px!important;border-radius:8px!important}input{background:#061d25!important;color:#fff!important;border:1px solid #328b83!important}button,.button{background:#4ce0c2!important;color:#052b2a!important;border-radius:6px!important}

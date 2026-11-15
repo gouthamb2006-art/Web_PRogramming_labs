@@ -1,0 +1,44 @@
+
+/* Lab 9: XML and DOM table */
+@import url('../assets/style.css');
+
+table{
+    width:100%;
+    border-collapse:collapse
+}
+
+th,td{
+    padding:.8rem;
+    border-bottom:1px solid rgba(120,130,150,.25)
+}
+
+tbody tr:hover{
+    background:rgba(70,130,220,.09)
+}
+
+#status,.status{
+    font-weight:600;
+    margin:.75rem 0
+}
+
+
+/* Independent visual direction: Lab 09 — xml */
+body{background:#eef3e9;color:#263c2b;font-family:Georgia,sans-serif}
+.site-header{background:#263c2b;border-color:#cbd9c1}
+.site-header .brand,.site-header .back-link{color:#eef3e9}
+.site-header .brand span{color:#668b55}
+.hero h1,.section-title{font-family:Georgia,sans-serif;color:#263c2b}
+.hero h1 span{color:#668b55;background:none}
+.eyebrow{color:#668b55}
+.card,.panel{border:1px solid #cbd9c1;border-radius:2px;box-shadow:0 9px 26px #263c2b12;background:#ffffff}
+.card h2,.panel h2{color:#263c2b}
+table th{background:#263c2b;color:#eef3e9}
+table td{border-bottom:1px solid #cbd9c1}
+tbody tr:nth-child(even){background:#cbd9c155}
+button,.pill{background:#668b55;color:#263c2b;border-color:#668b55}
+input,select,textarea{border:1px solid #cbd9c1;border-radius:2px;padding:10px;background:#fff;color:#263c2b}
+.footer{border-color:#cbd9c1;color:#263c2b}
+
+
+/* DISTINCT THEME 09: Archival records / data terminal */
+body{background:#f6f6f2!important;color:#202722!important;font-family:Arial,sans-serif!important}.site-header{background:#202b27!important;color:#fff!important;border-bottom:5px solid #9aab9f!important}.site-header a{color:#fff!important}.hero{background:#e3e8e2!important;padding:30px!important;border-top:1px solid #aebbb1!important;border-bottom:1px solid #aebbb1!important}.hero h1{font-family:Georgia,serif!important;color:#233b31!important}.card{background:#fff!important;border:1px solid #cbd2cc!important;border-radius:0!important;box-shadow:none!important}.table-wrap{overflow-x:auto!important;border:1px solid #aebbb1!important;background:#fff!important}table{border-collapse:collapse!important;font-size:14px!important}th{background:#dce5de!important;color:#20382c!important;text-transform:uppercase!important;letter-spacing:1px!important}td,th{border:1px solid #d6ddd7!important}tr:nth-child(even){background:#f2f5f1!important}

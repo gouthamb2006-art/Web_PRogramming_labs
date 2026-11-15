@@ -1,0 +1,47 @@
+
+/* Lab 7: Interactive calculator */
+@import url('../assets/style.css');
+
+.calculator{
+    max-width:420px;
+    margin:2rem auto;
+    padding:1.5rem;
+    border-radius:20px;
+    box-shadow:0 12px 35px rgba(20,30,50,.12)
+}
+
+.calculator button,button{
+    cursor:pointer;
+    transition:transform .18s ease,filter .18s ease
+}
+
+button:hover{
+    transform:translateY(-2px);
+    filter:brightness(1.04)
+}
+
+button:active{
+    transform:translateY(0)
+}
+
+
+/* Independent visual direction: Lab 07 — calculator */
+body{background:#161b22;color:#f0f4f8;font-family:Arial,sans-serif}
+.site-header{background:#f0f4f8;border-color:#343d49}
+.site-header .brand,.site-header .back-link{color:#161b22}
+.site-header .brand span{color:#51d6a5}
+.hero h1,.section-title{font-family:Arial,sans-serif;color:#f0f4f8}
+.hero h1 span{color:#51d6a5;background:none}
+.eyebrow{color:#51d6a5}
+.card,.panel{border:1px solid #343d49;border-radius:8px;box-shadow:0 9px 26px #f0f4f812;background:#222a34}
+.card h2,.panel h2{color:#f0f4f8}
+table th{background:#f0f4f8;color:#161b22}
+table td{border-bottom:1px solid #343d49}
+tbody tr:nth-child(even){background:#343d4955}
+button,.pill{background:#51d6a5;color:#f0f4f8;border-color:#51d6a5}
+input,select,textarea{border:1px solid #343d49;border-radius:8px;padding:10px;background:#fff;color:#f0f4f8}
+.footer{border-color:#343d49;color:#f0f4f8}
+
+
+/* DISTINCT THEME 07: Dark calculator console */
+body{background:#111827!important;color:#e5edf7!important;font-family:ui-monospace,Consolas,monospace!important}.site-header{background:#090e18!important;color:#b9f6d2!important;border-bottom:1px solid #35445c!important}.site-header a{color:#b9f6d2!important}.hero{background:#172338!important;padding:30px!important;border:1px solid #344a63!important;border-radius:8px!important}.hero h1{font-family:ui-monospace,monospace!important;color:#b9f6d2!important}.card.calc,.card{background:#1d2b40!important;color:#edf4ff!important;border:1px solid #3c536e!important;border-radius:14px!important;box-shadow:0 16px 36px #0005!important}.calc-screen{background:#07111e!important;color:#7dffb2!important;border:1px solid #4b6a83!important;border-radius:8px!important;padding:22px!important}button,.button{background:#9cf2c0!important;color:#10251c!important;border-radius:6px!important;font-family:inherit!important}

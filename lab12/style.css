@@ -1,0 +1,43 @@
+
+/* Lab 12: PHP age verification */
+@import url('../assets/style.css');
+
+form{
+    display:grid;
+    gap:1rem;
+    max-width:620px;
+    margin:2rem auto
+}
+
+input{
+    width:100%;
+    box-sizing:border-box
+}
+
+.message,.result{
+    padding:1rem;
+    border-radius:14px;
+    font-weight:600
+}
+
+
+/* Independent visual direction: Lab 12 — verify */
+body{background:#fff0e9;color:#512c25;font-family:Trebuchet MS,sans-serif}
+.site-header{background:#512c25;border-color:#efc8b8}
+.site-header .brand,.site-header .back-link{color:#fff0e9}
+.site-header .brand span{color:#c65e45}
+.hero h1,.section-title{font-family:Trebuchet MS,sans-serif;color:#512c25}
+.hero h1 span{color:#c65e45;background:none}
+.eyebrow{color:#c65e45}
+.card,.panel{border:1px solid #efc8b8;border-radius:8px;box-shadow:0 9px 26px #512c2512;background:#ffffff}
+.card h2,.panel h2{color:#512c25}
+table th{background:#512c25;color:#fff0e9}
+table td{border-bottom:1px solid #efc8b8}
+tbody tr:nth-child(even){background:#efc8b855}
+button,.pill{background:#c65e45;color:#512c25;border-color:#c65e45}
+input,select,textarea{border:1px solid #efc8b8;border-radius:8px;padding:10px;background:#fff;color:#512c25}
+.footer{border-color:#efc8b8;color:#512c25}
+
+
+/* DISTINCT THEME 12: Age verification / secure access gate */
+body{background:#f5efe3!important;color:#3d2c1d!important;font-family:Arial,sans-serif!important}.site-header{background:#392b21!important;color:#ffe7bc!important;border-bottom:5px solid #d18b39!important}.site-header a{color:#ffe7bc!important}.hero{background:#ead9bd!important;padding:36px!important;border-radius:0 0 38px 0!important}.hero h1{font-family:Georgia,serif!important;color:#4c321c!important;font-size:clamp(36px,6vw,62px)!important}.card{background:#fffaf1!important;border:1px solid #ddc9a8!important;border-radius:4px!important;box-shadow:10px 10px 0 #dfc9a5!important}input{background:#fff!important;border:1px solid #c6a77a!important;border-radius:3px!important}button,.button{background:#8d4f20!important;color:#fff!important;border-radius:3px!important}.notice.success{background:#e5f1df!important;color:#28512d!important}.notice.warning{background:#fae8d9!important;color:#793c20!important}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+  <book id="R201" category="Technology"><title>Python Crash Course</title><author>Eric Matthes</author><price>28.50</price></book>
+  <book id="R202" category="Science"><title>A Brief History of Time</title><author>Stephen Hawking</author><price>19.25</price></book>
+  <book id="R203" category="Biography"><title>Wings of Fire</title><author>APJ Abdul Kalam</author><price>14.75</price></book>
+  <book id="R204" category="Design"><title>The Design of Everyday Things</title><author>Don Norman</author><price>24.00</price></book>
+  <book id="R205" category="Computing"><title>Algorithms to Live By</title><author>Brian Christian</author><price>21.00</price></book>
+</library>

@@ -1,0 +1,38 @@
+
+/* Lab 11: PHP date and time */
+@import url('../assets/style.css');
+
+.time-display,.date-card,main{
+    max-width:760px;
+    margin:2rem auto;
+    padding:clamp(1.25rem,4vw,2.5rem);
+    text-align:center;
+    border-radius:18px
+}
+
+time{
+    font-variant-numeric:tabular-nums;
+    font-weight:700
+}
+
+
+/* Independent visual direction: Lab 11 — clock */
+body{background:#f5f0ff;color:#34234f;font-family:Georgia,sans-serif}
+.site-header{background:#34234f;border-color:#ded0f1}
+.site-header .brand,.site-header .back-link{color:#f5f0ff}
+.site-header .brand span{color:#9167bd}
+.hero h1,.section-title{font-family:Georgia,sans-serif;color:#34234f}
+.hero h1 span{color:#9167bd;background:none}
+.eyebrow{color:#9167bd}
+.card,.panel{border:1px solid #ded0f1;border-radius:8px;box-shadow:0 9px 26px #34234f12;background:#ffffff}
+.card h2,.panel h2{color:#34234f}
+table th{background:#34234f;color:#f5f0ff}
+table td{border-bottom:1px solid #ded0f1}
+tbody tr:nth-child(even){background:#ded0f155}
+button,.pill{background:#9167bd;color:#fff;border-color:#9167bd}
+input,select,textarea{border:1px solid #ded0f1;border-radius:8px;padding:10px;background:#fff;color:#34234f}
+.footer{border-color:#ded0f1;color:#34234f}
+
+
+/* DISTINCT THEME 11: International clock / observatory */
+body{background:radial-gradient(circle at 50% 15%,#293f73,#10182e 62%)!important;color:#f3f5ff!important;font-family:Arial,sans-serif!important;min-height:100vh!important}.site-header{background:#0c1428!important;color:#dbe5ff!important;border-bottom:1px solid #596a9b!important}.site-header a{color:#dbe5ff!important}.hero{text-align:center!important;background:transparent!important;padding:38px 20px!important}.hero h1{font-size:clamp(36px,6vw,64px)!important;color:#fff!important;letter-spacing:-2px!important}.grid{gap:18px!important}.time-card,.card{background:#19284a!important;color:#fff!important;border:1px solid #52679d!important;border-radius:18px!important;text-align:center!important;box-shadow:0 12px 40px #050b1d80!important}.big{font-size:clamp(28px,4vw,46px)!important;color:#a9d7ff!important;font-variant-numeric:tabular-nums!important}
